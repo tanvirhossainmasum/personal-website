@@ -6,7 +6,6 @@ body{
 h1{
     font-size: 50px;
     color: rgb(85, 77, 77);
-
 }
 
 p{
@@ -43,19 +42,22 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height:30%;
+    padding: 50px;
     background-color: white;
+    text-decoration: solid;
+    text-align: justify;
+    font-size:14px;
 }
 .working-area{
     background-color:whitesmoke
 }
-
 .one-third-width{
-    width:26%;
+    width:25%;
     height: 70%;
     float: left;
     margin-left: 5%;
     border-radius: 15px;
-    padding: 7px 10px;
+    padding: 8px 10px;
 
     
 
@@ -72,16 +74,23 @@ section{
 .work-inquiry{
     width:80%;
     height: 40%;
-    float:left;
+    float:center;
     padding: 10px;
     margin: 10%;
     border-radius: 30px;
     background-image: url("images/bg.png");
     background-position: left;
-   
-   
-   
+    
+}
 
+.review-section{
+    box-shadow: 10px 10px 40px rgb(145, 197, 231);
+    border-radius: 10px;
+    height:70%;
+    padding: 25px;
+    background-color:white;
+    text-decoration: solid;
+    text-align: justify;
 }
 .white-highlight{
     color: white;
